@@ -1,2 +1,7 @@
 # smart-home
-controlling the home through smart technology
+sensors>>ESp-32>>wifi>>mobile.(working)
+I am using;
+2 leds 
+DHT22 sensors for the temptature and humidity
+buzzer for the alaram
+
