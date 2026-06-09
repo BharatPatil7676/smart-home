@@ -22,27 +22,7 @@ project flow:
 
 
 
-GPIO = General Purpose Input Output
-A GPIO pin can work as:
-1. Input
-ESP32 reads signals from a device.
-Examples:
-Push button
-Sensor
-Switch
-Plain text
-Button → ESP32
-ESP32 receives information.
-2. Output
-ESP32 sends signals to a device.
-Examples:
-LED
-Buzzer
-Relay
-Plain text
-ESP32 → LED
-ESP32 controls the device.
-   
+
 
 GPIO = General Purpose Input Output
 A GPIO pin can work as:
@@ -77,25 +57,4 @@ Another Example
 Suppose a button is connected to GPIO4.
 C++
 pinMode(4, INPUT);
-Now ESP32 reads whether the button is pressed or not.
-Exam Point (2 Marks)
-GPIO (General Purpose Input Output) pins are programmable pins of ESP32 used to interface sensors and actuators. They can operate as either input pins to read signals or output pins to control devices.
-Remember
-Device
-GPIO Mode
-LED
-OUTPUT
-Buzzer
-OUTPUT
-Relay
-OUTPUT
-Push Button
-INPUT
-DHT22 Sensor
-INPUT
-PIR Sensor
-INPUT
-For tomorrow's smart home project, just remember:
-Sensors → Input pins
-LED/Buzzer/Servo/Relay → Output pins
-That's enough for today. Focus on your exam, and tomorrow we'll start with the ESP32 hardware connections. Good luck! 📚💪
+Now ES
