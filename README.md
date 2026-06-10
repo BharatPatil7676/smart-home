@@ -24,37 +24,3 @@ project flow:
 
 
 
-GPIO = General Purpose Input Output
-A GPIO pin can work as:
-1. Input
-ESP32 reads signals from a device.
-Examples:
-Push button
-Sensor
-Switch
-Plain text
-Button → ESP32
-ESP32 receives information.
-2. Output
-ESP32 sends signals to a device.
-Examples:
-LED
-Buzzer
-Relay
-Plain text
-ESP32 → LED
-ESP32 controls the device.
-Example
-Suppose LED is connected to GPIO2.
-C++
-pinMode(2, OUTPUT);
-digitalWrite(2, HIGH);
-What happens?
-GPIO2 is configured as OUTPUT.
-HIGH = 3.3V.
-LED glows.
-Another Example
-Suppose a button is connected to GPIO4.
-C++
-pinMode(4, INPUT);
-Now ES
