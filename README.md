@@ -39,7 +39,7 @@ Control Door
     ↓
 Control Alarm
     ↓
-Repeat Forever
+Repeat Forever (before this we can have some more steps like mobile monitor where you will recive nad send the data tp ESP32)
    
 
 
