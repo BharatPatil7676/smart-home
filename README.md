@@ -20,6 +20,30 @@ project flow:
 
 
 
+   smart home working and flow( this is temporary i may change )
+   sensors →ESP32 → Decision → Actuator
+
+
+this is the work flow 
+   Start
+     ↓
+Read DHT22
+    ↓
+Read PIR Sensor
+    ↓
+Process Data
+    ↓
+Control Lights
+    ↓
+Control Door
+    ↓
+Control Alarm
+    ↓
+Repeat Forever
+   
+
+
+
 
 
 
