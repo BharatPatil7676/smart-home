@@ -41,7 +41,7 @@ mobile(whenever the user opens the phone and press the turn on light,fan,etc)
    ESP 32(recives the commond then controls the light(on/off),motor)
    sensors(whenever the temp exceedes the light turn off automatically)
    servo motor(rotates anything by specific angle)
- remakajsjbsbs
+ 
 
    
 
