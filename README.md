@@ -15,33 +15,8 @@ project flow:
 
    
 
-   smart home working and flow( this is temporary i may change )
-   sensors →ESP32 → Decision → Actuator
-
-
-this is the work flow 
-   Start
-     ↓
-Read DHT22
-    ↓
-Read PIR Sensor
-    ↓
-Process Data
-    ↓
-Control Lights
-    ↓
-Control Door
-    ↓
-Control Alarm
-    ↓
-Repeat Forever (before this we can have some more steps like mobile monitor where you will recive nad send the data tp ESP32)
-
-
-mobile(whenever the user opens the phone and press the turn on light,fan,etc)
-   ESP 32(recives the commond then controls the light(on/off),motor)
-   sensors(whenever the temp exceedes the light turn off automatically)
-   servo motor(rotates anything by specific angle)
- 
+   
+   
 
    
 
